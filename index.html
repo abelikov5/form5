@@ -2,16 +2,19 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Вход на ET2</title>
+    <title>Вход на ET</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 </head>
 <body class="p-5 bg-light">
 
     <div class="container">
-        <h1 class="mb-4">Форма входа на ET3</h1>
+        <h1 class="mb-4">Форма входа на ET</h1>
 
         <form method="post" action="https://test-et.hse.ru/course/index.php?categoryid=146">
-            <input type="hidden" name="token" value="eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJCY1FsZHVfcjNEcWM0Zm5UT281dHZNOGlfSklpMFdxdzA0NUVGSnlfZ2ZNIn0.eyJleHAiOjE3NDc0OTIyOTEsImlhdCI6MTc0NzQwNTg5MSwiYXV0aF90aW1lIjoxNzQ3NDA1ODg2LCJqdGkiOiI3ZGUwNDc5Ni01NmY3LTRkOTItODA2Yi1kMzZiNWViM2FkM2UiLCJpc3MiOiJodHRwczovL3NhbWwuaHNlLnJ1L3JlYWxtcy9oc2UiLCJhdWQiOiJhY2NvdW50Iiwic3ViIjoiZjQxZWM1NjgtNjAzMC00ZDA1LThlZmQtYzY2NDkyZDg0OTQ0IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiaHNlLWxrYSIsInNlc3Npb25fc3RhdGUiOiIzNWI5NGQxZS0zMjM0LTRkMTItOGM0NS0yOTM1MTJhMWVmODIiLCJhY3IiOiIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHBzOi8vcGsuaHNlLnJ1Il0sInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJkZWZhdWx0LXJvbGVzLWhzZSIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iXX0sInJlc291cmNlX2FjY2VzcyI6eyJhY2NvdW50Ijp7InJvbGVzIjpbIm1hbmFnZS1hY2NvdW50IiwibWFuYWdlLWFjY291bnQtbGlua3MiLCJ2aWV3LXByb2ZpbGUiXX19LCJzY29wZSI6InByb2ZpbGUgZW1haWwiLCJzaWQiOiIzNWI5NGQxZS0zMjM0LTRkMTItOGM0NS0yOTM1MTJhMWVmODIiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmFtZSI6ItCe0LvQtdCzINCg0Y_Qt9Cw0L3RgdC60LjQuSAiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJpcm1hcGVyZjEyMDUyNTEyMzIxMSIsImdpdmVuX25hbWUiOiLQntC70LXQsyIsImZhbWlseV9uYW1lIjoi0KDRj9C30LDQvdGB0LrQuNC5ICIsImVtYWlsIjoiaXJtYXBlcmZlY3RAY2hlZmFsaWNpb3VzLmNvbSJ9.FXQQ4yHH6sj3sMdQfG47uuRVrF3c27FFy8FrTybN7-olV2VcHmmcIsPwUt_v2TbcmeWzRHcsg7YQZmoAbyUMHFzkh4ZE3R-KuzOpuaWPnfJns-9lHqJLWpYp158D_VLSGY45_rYIdsLgkWWbIOQ8FggdoTemoDmq6ZVUpovnbk9Kz8FJGRjFQ34Xl6NAxTMsRPvd2f6_VXHbFRKbiiUDfS0xlbGiOd21tm-2M5pc1Oy8Fe1YOQkJPThD9EU_Cl-Dg5LWPihbSLR3Dza-nP0KsiiQAiUuxbgDjm4JmtDqiE_iegRRAxzT_dWOtd9zjBgTl4TpeAKVPEw_MrUYt6dmWA">
+            <div class="mb-3">
+                <label for="token" class="form-label">Введите токен</label>
+                <input type="text" class="form-control" id="token" name="token" placeholder="Вставьте сюда ваш токен" required>
+            </div>
 
             <button type="submit" class="btn btn-secondary">Вход на ET</button>
         </form>
